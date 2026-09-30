@@ -12,6 +12,14 @@ body {
     height: 100vh;
 }
 
+#bg2 {
+    background-image: url('assets/ending.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 #title {
   font-size: 30px;
   font-weight: bold;
@@ -34,14 +42,19 @@ body {
     text-decoration-style: wavy;
 }
 
+section{
+   display:flex;
+   flex-direction: row;
+}
+
 #choiceA {
     display:block;
     height:20px;
     text-decoration:none;
     background-color:#44330d;
     color:#ffffff;
-    margin:30%;
-    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 50px;
 }
 
@@ -55,8 +68,10 @@ body {
     text-decoration:none;
     background-color:#44330d;
     color:#ffffff;
-    padding: 50px;
-    margin:30%;
+   padding: 50px;
+  margin-left: 20%;
+  margin-top:10px;
+    
 }
 
 #choiceB:hover {
